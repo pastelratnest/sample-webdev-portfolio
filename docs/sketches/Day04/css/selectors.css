@@ -1,0 +1,41 @@
+/* ELEMENT SELECTORS*/
+
+h1  {
+    color: slateblue;
+}
+
+p   {
+    font-family: Arial, Helvetica, sans-serif;
+    color: blue;
+}
+
+#home-title     {
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+color: springgreen;
+font-size: 4em;
+}
+
+div     {
+    width: 150px;
+    height: 150px;
+    border: 3px solid brown;
+    margin: 20px;
+    text-align: center;
+}
+
+.green  {
+background-color: green;
+}
+
+.big    {
+    width: 300px;
+    height: 300px;
+}
+
+.big > p    {
+    color: crimson;
+}
+
+#dog    {
+    width: 40em;
+}
