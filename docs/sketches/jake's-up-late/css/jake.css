@@ -16,3 +16,6 @@ body    {
     width: 80%;
 }
 
+audio   {
+    visibility: hidden;
+}
