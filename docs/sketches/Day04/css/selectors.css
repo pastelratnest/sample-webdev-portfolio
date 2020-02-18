@@ -26,7 +26,8 @@ div     {
     margin: 20px;
     text-align: center;
 
-    /* THIS ALLOWS THE BLOCKS TO BE CENTERED */
+    /* THIS ALLOWS THE BLOCKS TO BE CENTERED
+    (div's are block-level elements by default) */
     display: inline-block; 
 }
 
