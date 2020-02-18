@@ -25,3 +25,7 @@ a   {
     color: palevioletred;
     
 }
+
+a:hover {
+    color: lightsalmon;
+}
