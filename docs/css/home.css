@@ -1,3 +1,7 @@
+/* 
+    DON'T TOUCH THIS UNTIL YOU'RE COMFORTABLE WITH CSS GRID
+*/
+
 *   {
     padding: 0;
     margin: 0;
@@ -5,16 +9,19 @@
 
 body    {
     background-color:#ccffdb;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr 2fr;
+    grid-auto-rows: minmax(5.5em, auto);
 }
 
 h1  {
-    font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     margin: 10px;
+    grid-column: 2/5;
 }
 
 h2  {
-    font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     margin: 10px;
 }
@@ -22,10 +29,35 @@ h2  {
 a   {
     padding: 1em;
     text-decoration: none;
-    color: palevioletred;
-    
+    /*color: palevioletred;*/
+    color: black;
 }
 
 a:hover {
     color: lightsalmon;
+}
+
+.centertext {
+
+}
+
+#link1   {
+    background-color: #f6e6ff;
+    text-align: center;
+    grid-column: 2/3;
+    grid-row: 2/4;
+}
+
+#link2   {
+    background-color: #ffe6e6;
+    text-align: center;
+    grid-column: 3/4;
+    grid-row: 3/5;
+}
+
+#link3   {
+    background-color: #fffede;
+    text-align: center;
+    grid-column: 4/5;
+    grid-row: 4/6;
 }
